@@ -13,7 +13,7 @@ public class ActivityProfile extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_profile);
 
-        toolbar = (Toolbar) findViewById(R.id.toolbar_create_tour);
+        toolbar = (Toolbar) findViewById(R.id.toolbar_profile);
         toolbar.setTitle("My Profile");
 
         setSupportActionBar(toolbar);
